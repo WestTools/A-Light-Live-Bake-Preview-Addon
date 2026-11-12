@@ -15,7 +15,7 @@ when youre done hit **Stop Preview** and your real bake comes straight back
 - bakes a fast low quality version of your lighting
 - **auto refresh**: bakes the preview again by itself a moment after you change a light
 - 3 quality levels: **Draft** (fastest), **Low** and **Medium** (closest to the real bake)
-- can also watch your static objects, not just lights
+- can also watch your static objects and materials, not just lights
 - your real bake is never touched. the preview goes into its own temporary folder that gets deleted when you stop
 - saving the scene while previewing still saves your real bake, not the preview
 - starting a real bake stops the preview first, so they never mix
@@ -41,10 +41,10 @@ when youre done hit **Stop Preview** and your real bake comes straight back
 
 | setting | what it does |
 |---|---|
-| Quality | Draft is fastest, Medium looks closest to the real thing |
+| Quality | Draft is fastest, Medium looks closest to the real thing but takes longest |
 | Auto refresh | rebakes by itself after you change a light |
-| Also watch objects | also rebakes when you move static objects, not just lights |
-| Wait (seconds) | how long it waits after your last change before rebaking |
+| Also watch objects | also rebakes when you move static objects or change materials, not just lights |
+| Wait (seconds) | how long it waits after your last change before rebaking (0.2 to 10 seconds) |
 
 ## good to know
 
